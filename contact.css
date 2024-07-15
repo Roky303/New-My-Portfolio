@@ -1,0 +1,128 @@
+/* Navber Section */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #cbbebe;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.opacity {
+    opacity: 60%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#img-style img {
+    height: 30px;
+    width: 30px;
+}
+
+#img-style {
+    display: flex;
+    align-items: center;
+}
+
+#text-style {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-decoration: none;
+}
+
+#text-style a {
+    text-decoration: none;
+}
+
+.button-style {
+    background-color: #05c182;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.button-style:hover {
+    background-color: #5d706a;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.button-style a {
+    color: #000000;
+}
+
+.button-style a:hover {
+    color: #e0d2d2;
+}
+
+/* Footer Section */
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #f0ebe6;
+    padding: 50px;
+}
+
+footer input {
+    padding: 13px;
+    width: 230px;
+    border: none;
+}
+
+footer textarea {
+    padding: 13px;
+    width: 230px;
+    border: none;
+}
+
+#footer-button {
+    background-color: #f0784c;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+.out-the{
+    padding-top: 100px;
+}
+
+
+/* mobile devices */
+
+@media screen and (max-width: 576px) {
+    /* Navber section */
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #ede5e5;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    /* Footer Section */
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        background-color: #f0ebe6;
+        padding: 50px;
+    }
+    .out-the{
+        padding-bottom: 10px;
+    }
+
+
+}
